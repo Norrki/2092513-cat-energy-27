@@ -94,11 +94,11 @@
           <span class="special-title__text">Контактные данные (владельца кота)</span>
         </legend>
         <ul class="program-form__list params">
-          <li class="program-type__item textfield">
+          <li class="program-type__item program-type__item--text textfield">
             <label class="textfield__label" for="mail-owner">E-mail:*</label>
             <input class="textfield__input" type="text" placeholder="kuklachev@gmail.com" id="mail-owner" name="mail-owner">
           </li>
-          <li class="program-type__item textfield">
+          <li class="program-type__item program-type__item--text textfield">
             <label class="textfield__label" for="phone-owner">Телефон:*</label>
             <input class="textfield__input" type="text" placeholder="8 (960) 900-60-90" id="phone-owner" name="phone-owner">
           </li>
@@ -120,20 +120,20 @@
         <legend class="program-form__title-block special-title">
           <span class="special-title__text special-title--more">Дополнительно</span>
         </legend>
-        <ul class="program-form__list program-type">
-          <li class="program-type__item checkbox">
-            <input class="checkbox__input visually-hidden" type="checkbox" id="sweetener" name="sweetener" value="sweetener">
+        <ul class="program-form__list program-type program-type--more">
+          <li class="program-type__item program-type__item--more checkbox">
+            <input class="checkbox__input visually-hidden" checked type="checkbox" id="sweetener" name="sweetener" value="sweetener">
             <label class="checkbox__label" for="sweetener">сахарозаменитель</label>
           </li>
-          <li class="program-type__item checkbox">
+          <li class="program-type__item program-type__item--more checkbox">
             <input class="checkbox__input visually-hidden" type="checkbox" id="water" name="water" value="water">
             <label class="checkbox__label" for="water">питьевая вода</label>
           </li>
-          <li class="program-type__item checkbox">
+          <li class="program-type__item program-type__item--more checkbox">
             <input class="checkbox__input visually-hidden" type="checkbox" id="milk" name="milk" value="milk">
             <label class="checkbox__label" for="milk">молоко</label>
           </li>
-          <li class="program-type__item checkbox">
+          <li class="program-type__item program-type__item--more checkbox">
             <input class="checkbox__input visually-hidden" type="checkbox" id="vitamins" name="vitamins" value="vitamins">
             <label class="checkbox__label" for="vitamins">витамины</label>
           </li>
@@ -145,7 +145,6 @@
       <div class="program-form__button button-form">
         <input class="button-form__input" type="submit" name="submit-button" value="отправить заявку">
       </div>
-
       <div class="program-form__span span-form">
         <span class="span-form__span">* — Обязательные поля</span>
       </div>
@@ -198,3 +197,5 @@
   </footer>
 
 </body>
+
+</html>
